@@ -1,0 +1,74 @@
+Return-Path: <pimerman@southslope.net>
+X-Original-To: r8z@protonmail.com
+Delivered-To: r8z@protonmail.com
+Received: from smtp.southslope.net (smtp.southslope.net [216.51.139.10]) (using TLSv1.2
+ with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate
+ requested) by mailin010.protonmail.ch (Postfix) with ESMTPS id E261A3000254; Fri,
+  1 May 2020 14:50:55 +0000 (UTC)
+Received: from webmail.southslope.net (southslope.ispn.net [64.35.208.125]) (using TLSv1
+ with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested)
+ (Authenticated sender: pimerman@southslope.net) by smtp.southslope.net (Postfix) with
+ ESMTPSA id 802044252D; Fri,
+  1 May 2020 09:50:52 -0500 (CDT)
+Received: from 102.89.2.146
+        (SquirrelMail authenticated user pimerman@southslope.net)
+        by webmail.southslope.net with HTTP;
+        Fri, 1 May 2020 09:50:54 -0500
+Authentication-Results: mailin010.protonmail.ch; dmarc=none (p=none dis=none)
+ header.from=southslope.net
+Authentication-Results: mailin010.protonmail.ch; spf=pass
+ smtp.mailfrom=pimerman@southslope.net
+Authentication-Results: mailin010.protonmail.ch; dkim=pass (1024-bit key)
+ header.d=southslope.net header.i=@southslope.net header.b="T28HhW5B"
+Dkim-Filter: OpenDKIM Filter v2.11.0 smtp.southslope.net 802044252D
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=southslope.net; s=ispn2019;
+ t=1588344654; bh=AX5H78U4QaLVGiSXkz0yDEYVWsP4v+lnphaj3jkjCYg=; h=Date:Subject:From:From;
+ b=T28HhW5BdNA3A6bTfl6WBo55yGTEEH4tHXSF4gl4lxOJLouDdusg5zZxbcJgcjaMa
+  rsjeiRRmZ135jWLFwCDVIGilKm0SmZ9IZkRZkHLFIqQAoQniJq9w2hUdeO43O40z5m
+  u50vxd2TPrYgjO6IpI4QZ8pNsMmOCqf1RwjlZ/fM=
+Message-Id: <3e52ff64e32ac3e9de513a5cffbb45a5.squirrel@webmail.southslope.net>
+Date: Fri, 1 May 2020 09:50:54 -0500
+Subject: PROTON Mail Info
+From: "PROTON Customer Services Info(PROTONMemberServices@comms.net)"
+ <pimerman@southslope.net>
+User-Agent: SquirrelMail/1.4.22
+Mime-Version: 1.0
+Content-Type: multipart/mixed;boundary=---------------------ad074ff0de7fe9069e49a53d2fd739d4
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Pm-Spam: 0yeiAIic37iBOIJChpR3Y2bi4AiOiuHVZb8miiACL3cpJI6ZC1CIIZFWj1czMzM5c
+ M5ZjmjJZNET5wQTZjZiU0sIHzCJIYIS6gsHImIzlNwX3iW0YOAiwiACL2cvNUicmxiAOLACiwVmc
+ 3b0JogIjujAIMBCTfZEUESMV9QT1TVNQINFQgojRESMVBtTyjXRYaVGzQNFIiRyBNvZWcmRcb0iw
+ gAjL1UGBBBX1g1MUUB1GzBiOWZk5IgZX0WFbYh2lTBycEUgYVjcmk3JbX4Ggw4SMEIJ1NJU1fkdT
+ SVEBSVERyUNBNzaXnW5aIRFvoBiOWZkFJcZXwiAbLAjgNRFSFTN9NTRVFUdQIJEP6kFREIUhwgTU
+ jW5abVHkgQWZWag4VzbWn2FcZxVuuATLSMEBlNS0B1ZXTlEEVF0XEIl1Nhc3g2UZaFGzgEGImdsF
+ QgaWJEtRTBSvEBicySzBduaW1XRYcUmgvJnZVbuxF1IGvGhdcdizvRGIWbpFxubluDAIMBSENl0S
+ 1XJN5FR0NCBRZNXzldWYGIhhBhcyLERIS0UggI3bERgslnc20mFbdJXluBCL3bgQVjbmzXNZYJXp
+ clHbib2BxpYWuFxZLATuEBSM0SNlZBX1EElTI1ElhN3c2ZgUFzaG0GFIIxGl0NXYGIu9B2ZSpWxY
+ ZBCENl0SGIy9RLIEpHNIZ52hyVHdVZuxAuLTESBMSl0NBZ1XETElVGX0lE1IcN3hgU2ZGazFEgIG
+ smFdaQWgJtERSTvBBEcizyBSadWu1RXYmcgUJvZnuVxbIVGusVmd3blBZyLWg20bZ9GtulWYGXg4
+ 4wMSDFJIVRkff5USEWMJJlIFp2VYdVmkpZHISYhBJlIH5GFbIlGuwNFIWYo1VzYXCFhITxFu9BiI
+ IH0=============
+X-Pm-Origin: external
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 102
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+
+-----------------------ad074ff0de7fe9069e49a53d2fd739d4
+Content-Type: multipart/related;boundary=---------------------dd5567fa50a779a6684674072fd38d6e
+
+-----------------------dd5567fa50a779a6684674072fd38d6e
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: base64
+
+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToyOHB4Ij48c3Ryb25nPlBST1RPTiBNYWlsPC9zdHJvbmc+
+PC9zcGFuPjxicj48YnI+Jm5ic3A7PGJyPkRlYXIgVXNlcjxicj48YnI+PGJyPlRoYW5rIHlvdSBm
+b3IKdXNpbmcmbmJzcDtQUk9UT048YnI+PGJyPlRoaXMgaXMgdG8gaW5mb3JtIHlvdSB0aGF0IHlv
+dXIgbWFpbApleHBlcmllbmNlIGhhcyBiZWVuIHVwZGF0ZWQgZm9yIG5ldyBmZWF0dXJlcyB3aGlj
+aCZuYnNwOyBoYXMgY2F1c2VkIHNvbWUKb2YgeW91ciBpbmNvbWluZyBtYWlscyB0byBiZSBwbGFj
+ZWQgb24gcGVuZGluZy48YnI+PGJyPktpbmRseSBjbGljazxhIGhyZWY9Imh0dHA6Ly9wcm90b25t
+YWlsdXB0ZW9ubGluZWNvbW0ueW9sYXNpdGUuY29tIiB0YXJnZXQ9Il9ibGFuayI+Jm5ic3A7VmFs
+aWRhdGU8L2E+Jm5ic3A7dG8KdXBkYXRlIHlvdXIgbWFpbC48YnI+PGJyPkJlc3QgUmVnYXJkczxi
+cj4mbmJzcDs=
+-----------------------dd5567fa50a779a6684674072fd38d6e--
+-----------------------ad074ff0de7fe9069e49a53d2fd739d4--
