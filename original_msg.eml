@@ -1,0 +1,72 @@
+Delivered-To: kodnt56@gmail.com
+Received: by 2002:a02:74a:0:0:0:0:0 with SMTP id f71csp1373jaf;
+        Fri, 8 May 2020 04:34:50 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJyXJXzclxzJwnz7xdg3WIlo1+NXHVg9CPH/sPjEFVcSPYqIzD0qN4s48cPdAgqm/QP26HK/
+X-Received: by 2002:a2e:7a0a:: with SMTP id v10mr1432318ljc.86.1588937690767;
+        Fri, 08 May 2020 04:34:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1588937690; cv=none;
+        d=google.com; s=arc-20160816;
+        b=fia5ZUw1ruxYiR85V5rpCOpdtcKZn7h1zG3o2BL7lqJSC2BWapvfWMvpC0NcVsIH+Q
+         xTnVg4YcNAzhworRg0wbb0zcCCv1dto+DMG5G6wdht4aLjs0FyFAb1xoKoLrloW8oyOx
+         ThC0P2yWBoxVIWy944tDk7o0lCUkDM2yvMWFU9HwmoC+9fmOFrLugbbqBwcixHTFDH2k
+         2BBrrmBi1cElMpXGqYaSAI54yFJ7dAfHn417t0C9FWNxsDsI+Lp66GAAHVpFrM4IHvTa
+         8DdPGPPvw+up/nfJ1oujaO13jWnNF0cdUYm1nQLWKCGLiFrAHNQxpd0+oaymWYIV3ORq
+         nr3A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:to:from:date
+         :dkim-signature;
+        bh=nWxWhTbVWgdMq8M2T2qTQqpPolyY4h9T5cDjXBZEsZo=;
+        b=Wq+otcmvOGklUrOnxaAX2Kyn+8yjnJ3b/WJOMOStLhMA8TQKUXWlqiMoDGu+2l8qQe
+         OA2N2clVbRY7wxVjNwt8cyccP3zZEbQsuFnv2DqFKZ0VDQOiOEhfcVcP3O9CAXKRr30G
+         KAfSzSjHRemyE5ZpKNnyPksaopYBGLt+SN98InMIioahfVGh9r6Y9Y0XGiEljYaGH2VD
+         pNEY4Zvs5Hq5nGr8Cq+L5ukVx1ZpLqSZf2APcI1d3kok7GpAePc5n0nxwr9L3X0Dx9z1
+         8MB+QhSlAC6wN5WlPrWdq7+9vQBFmt8LmjBSOM69sTSdLswTw0BPEkRrgFt+ETHTgW76
+         e/ZA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@yandex.com header.s=mail header.b=PamdNx4a;
+       spf=pass (google.com: domain of dgokperisix@yandex.com designates 37.140.190.183 as permitted sender) smtp.mailfrom=dgokperisix@yandex.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=yandex.com
+Return-Path: <dgokperisix@yandex.com>
+Received: from forward105o.mail.yandex.net (forward105o.mail.yandex.net. [37.140.190.183])
+        by mx.google.com with ESMTPS id s2si1349471ljg.33.2020.05.08.04.34.48
+        for <kodnt56@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 08 May 2020 04:34:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of dgokperisix@yandex.com designates 37.140.190.183 as permitted sender) client-ip=37.140.190.183;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@yandex.com header.s=mail header.b=PamdNx4a;
+       spf=pass (google.com: domain of dgokperisix@yandex.com designates 37.140.190.183 as permitted sender) smtp.mailfrom=dgokperisix@yandex.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=yandex.com
+Received: from forward101q.mail.yandex.net (forward101q.mail.yandex.net [IPv6:2a02:6b8:c0e:4b:0:640:4012:bb98])
+	by forward105o.mail.yandex.net (Yandex) with ESMTP id 8C8CB42017DB
+	for <kodnt56@gmail.com>; Fri,  8 May 2020 14:34:48 +0300 (MSK)
+Received: from mxback5q.mail.yandex.net (mxback5q.mail.yandex.net [IPv6:2a02:6b8:c0e:1ba:0:640:b716:ad89])
+	by forward101q.mail.yandex.net (Yandex) with ESMTP id 8A315CF40002
+	for <kodnt56@gmail.com>; Fri,  8 May 2020 14:34:48 +0300 (MSK)
+Received: from vla5-47b3f4751bc4.qloud-c.yandex.net (vla5-47b3f4751bc4.qloud-c.yandex.net [2a02:6b8:c18:3508:0:640:47b3:f475])
+	by mxback5q.mail.yandex.net (mxback/Yandex) with ESMTP id 7VNE7LXGDu-YmsmlleB;
+	Fri, 08 May 2020 14:34:48 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yandex.com; s=mail; t=1588937688;
+	bh=nWxWhTbVWgdMq8M2T2qTQqpPolyY4h9T5cDjXBZEsZo=;
+	h=To:From:Date:Message-ID;
+	b=PamdNx4aaD6BQ/fhLJeLQdEiNcUIrP/Xs0Ezl/tA8IONJP+mDx72XyuMxJ7u3a8oh
+	 hrXWBzZcka6g8sG/mT7ZOWXgFDO5b2euaHMQBaGNAbfyeuzTWDf1uzQdFZBefrzEnl
+	 w/ZV3lkLa/ZrSp2yT1IfCfum5MvO3JlLVeDvXHMQ=
+Authentication-Results: mxback5q.mail.yandex.net; dkim=pass header.i=@yandex.com
+Received: by vla5-47b3f4751bc4.qloud-c.yandex.net (smtp/Yandex) with ESMTPSA id 4s0bDGYNpP-Yl2eTMBw;
+	Fri, 08 May 2020 14:34:48 +0300
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(Client certificate not present)
+Date: Fri, 8 May 2020 14:29:27 +0300
+From: Ekaterina <dgokperisix@yandex.com>
+To: Kent Roderick <kodnt56@gmail.com>
+Message-ID: <17910358901.20200508142927@yandex.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="Windows-1250"
+Content-Transfer-Encoding: quoted-printable
+
+Guten Morgen Kent Ich habe Ihren Brief nicht erhalten. wann schreibst du mi=
+r Ich hoffe du schreibst mir bald. Ich w=FCnsche dir ein sch=F6nes Wochenen=
+de.
+Ekaterina.
+

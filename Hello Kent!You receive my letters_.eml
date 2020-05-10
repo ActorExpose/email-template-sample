@@ -1,0 +1,100 @@
+Delivered-To: kodnt56@gmail.com
+Received: by 2002:a02:74a:0:0:0:0:0 with SMTP id f71csp1097566jaf;
+        Sat, 9 May 2020 11:01:39 -0700 (PDT)
+X-Received: by 2002:a0c:efc8:: with SMTP id a8mr7881459qvt.153.1589047299009;
+        Sat, 09 May 2020 11:01:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1589047299; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jQRnkpUotNd9Z//54xofQxGgbC7d0R1EyW3C4KT0n2hUUBSLwC80OoZJ7SJEM30QIn
+         0bBmdd1fV4ammuYshrgwF8sceDAowKTnHOv6dLUqo6EWpPK6vIC6f6FOZ0sbw0TNYUPL
+         Vrfwqn6B2sBQmW2oneJMfdaHalXLhTf8oLwJd62OL8X6cdK8gHCpJkfbZKTbbWtbpqHx
+         CryiVw3dp6n9QwIa6XiRuutf8wqJBQeYetKru25pCewaoc+SsZA3zds1/kljm3JZDlJd
+         KrrtLe8dzP3DChsxVna2JHUuhqwM4dsNrZSpi6qRYF3UrhVqAWWkyrAXpTlLdFhEiSRW
+         q2BQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:subject:to:message-id:from
+         :date:dkim-signature;
+        bh=aVLE8Ggeg9YQL4fX7816qSMB5VD+Mbykk2g0AxxXQz4=;
+        b=hWcZO+bqFNcGURxSzcCgdXLvuCuzq/F7ikbD6f3ln9vaVhbsL/MR84v6TyK/MWh56Y
+         5HlRLxxMHTr9foMxkkuY1ZtcQSfmCpOXGY1SUUnJYgi4ZBl3u2C+6fuiAWxuWbsJNgIV
+         tt91KhD+7Fhy7wuXDtN0dHooA65J/iXBWC4OCEY1WnvAp8sBSe6o+w+whVjRUNNtSxzp
+         pDq9NpT72cFBJRktdITYb/qq4rvELx2918nEjYpn5PGLUa+jvsa4O2ya5O7YKVAG+5mS
+         WnoGGz8qkbukmg3Bvzph22ds7krYXNdtLV1Zitt4yZLbRf7G/fkehl+mvcUCXcM7ykf+
+         04aw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=j35q0Wyp;
+       spf=pass (google.com: domain of tatyanasereda84@gmail.com designates 209.85.220.65 as permitted sender) smtp.mailfrom=tatyanasereda84@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <tatyanasereda84@gmail.com>
+Received: from mail-sor-f65.google.com (mail-sor-f65.google.com. [209.85.220.65])
+        by mx.google.com with SMTPS id v128sor5168005qka.169.2020.05.09.11.01.38
+        for <kodnt56@gmail.com>
+        (Google Transport Security);
+        Sat, 09 May 2020 11:01:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of tatyanasereda84@gmail.com designates 209.85.220.65 as permitted sender) client-ip=209.85.220.65;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=j35q0Wyp;
+       spf=pass (google.com: domain of tatyanasereda84@gmail.com designates 209.85.220.65 as permitted sender) smtp.mailfrom=tatyanasereda84@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=date:from:message-id:to:subject:mime-version
+         :content-transfer-encoding;
+        bh=aVLE8Ggeg9YQL4fX7816qSMB5VD+Mbykk2g0AxxXQz4=;
+        b=j35q0WypCE64MM8b/FZvnkZyED0HX8RmK1P5kGgblYBfCa+Jy7hIPoHORZ9QsCrEBi
+         8MUFmc+Cb3Zl4wRiLfUnmz8t/0QqNAgZiC+uE6bp8G62WTIi/sRZwaRxgcNtcv/8igD3
+         OsJiCJiylz2LCOBprO7fjdjMNqvtBertu+R+Tbvi89kgo5PlR7RPWnt44X5mbObKwNdN
+         6Aq9fobvHtZMEzMIbrVhTFIWItKX/0ycW1/ah0fVFcVtlr5zi2T3JZ2S0mm9xjyA7Wsd
+         GFhd3gQlgOdsXmx5oMlc8gzQRD+Ypf9npjUMvFzSljBMvVlnfJ5azN4nvCtIAtYPoqe7
+         lFKw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:date:from:message-id:to:subject:mime-version
+         :content-transfer-encoding;
+        bh=aVLE8Ggeg9YQL4fX7816qSMB5VD+Mbykk2g0AxxXQz4=;
+        b=sCJg4WVkrEQVgVyphgv8wjgI13hDdXAS5yMNNEUKp5Df6UgNd6UNCJlciz9T51Oov2
+         aRCmJ7h6LxtGl/WvBLIB1FtoSZQuiF1O69GED5CoT9O6JH6I1VYk6CNa2a6Wk9KVQoIq
+         Q5fRS7UCu166bEo4AsxLXD+0QSkIK5XeK8VLwfuGn7dkv53mTE9cdBjNLlERVkqOxndN
+         E4ps/TeGnigw4BjzD5i+yTlhCSrUSCBRb95czvSy2wisTbZvRpzZVlYnGh3TTxahc8wB
+         YfebHJjmRtYzfqeea7VfowPO/oGH85y0+2t2SVxZIv3XtssIGNzMdGPTAOfhsiYXEtw3
+         JaWg==
+X-Gm-Message-State: AGi0PuZBYlcCtJzh7kz4YBF01C4Po8TQtuv8FIa2cwYBwST31iJtR4Y6
+	QFV6ngWWO8wvFTHBb/ARE9IXHxU=
+X-Google-Smtp-Source: APiQypJ+v8/+Xiu5V6RPjS2ikzBlf3fT3C0PI+j2PA7F5YESvxFaOwSvbBegOi5Xw6SIil/2XrfAhw==
+X-Received: by 2002:a05:620a:12dc:: with SMTP id e28mr8597081qkl.38.1589047298277;
+        Sat, 09 May 2020 11:01:38 -0700 (PDT)
+Return-Path: <tatyanasereda84@gmail.com>
+Received: from DESKTOP-IL1804M ([107.174.18.148])
+        by smtp.gmail.com with ESMTPSA id a194sm3996713qkb.21.2020.05.09.11.01.37
+        for <kodnt56@gmail.com>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Sat, 09 May 2020 11:01:37 -0700 (PDT)
+Date: Sat, 9 May 2020 20:59:58 +0300
+From: Tatyana <tatyanasereda84@gmail.com>
+X-Priority: 3 (Normal)
+Message-ID: <1437783654.20200509205958@gmail.com>
+To: Kent <kodnt56@gmail.com>
+Subject: Hello Kent!You receive my letters?
+MIME-Version: 1.0
+Content-Type: text/plain; charset=windows-1251
+Content-Transfer-Encoding: quoted-printable
+
+Hello Kent!!!
+I waited for your letter, but and have not received from you the answer to =
+my letter.
+I understand that you now are probably occupied on work and have no an Inte=
+rnet number.
+I send you a poem I hope it to you will cheer up.
+
+I go mad on the sly,
+I wish to see you.
+About if you as to me it is bad knew,
+When in a distance you from me...=20
+
+I wish to embrace you loving
+And to whisper on an ear -=20
+"As long I waited for you,
+Favourite mine, I love you,
+I most on light!!! "
+Yours Tatyana!!!
+
