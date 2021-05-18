@@ -1,0 +1,78 @@
+Return-Path: <b880413@zimbra.unideb.hu>
+X-Original-To: r8z@protonmail.com
+Delivered-To: r8z@protonmail.com
+Received: from mailsender2.it.unideb.hu (mailsender-2.it.unideb.hu [193.6.138.80]) by
+ mailin010.protonmail.ch (Postfix) with ESMTP id 4FdHLb5JV7z7QQ5X; Sun,
+  9 May 2021 08:25:27 +0000 (UTC)
+Received: from mailgw.it.unideb.hu (unknown [IPv6:2001:738:3000:138::58]) by
+ mailsender.it.unideb.hu (Postfix) with ESMTP id 8A4182508C; Sun,
+  9 May 2021 10:25:27 +0200 (CEST)
+Received: from zimbra.unideb.hu (zimbra.unideb.hu [193.6.138.65]) by mailgw.it.unideb.hu
+ (Postfix) with ESMTPS id 6722F6068F; Sun,
+  9 May 2021 10:25:27 +0200 (CEST)
+Received: from zimbra.unideb.hu (localhost [127.0.0.1]) by zimbra.unideb.hu (Postfix)
+ with ESMTPS id C6D1C2C181E0C; Sun,
+  9 May 2021 10:22:22 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1]) by zimbra.unideb.hu (Postfix) with ESMTP
+ id 5B65B2C181DEC; Sun,
+  9 May 2021 10:22:22 +0200 (CEST)
+Received: from zimbra.unideb.hu ([127.0.0.1]) by localhost (zimbra.unideb.hu [127.0.0.1])
+ (amavisd-new, port 10026) with ESMTP id wJ7MjBLrvqhO; Sun,
+  9 May 2021 10:22:22 +0200 (CEST)
+Received: from zimbra.unideb.hu (zimbra.unideb.hu [193.6.138.65]) by zimbra.unideb.hu
+ (Postfix) with ESMTP id 1BD582C181DA7; Sun,
+  9 May 2021 10:22:19 +0200 (CEST)
+Authentication-Results: mailin010.protonmail.ch; dmarc=none (p=none dis=none)
+ header.from=fin.unideb.hu
+Authentication-Results: mailin010.protonmail.ch; spf=pass
+ smtp.mailfrom=b880413@zimbra.unideb.hu
+Authentication-Results: mailin010.protonmail.ch; dkim=none
+Date: Sun, 9 May 2021 10:22:19 +0200 (CEST)
+From: Naomi Hayashi <sebo.laszlo@fin.unideb.hu>
+Reply-To: Naomi Hayashi <naomihhayashi03@gmail.com>
+Message-Id: <337395960.1680794.1620548539063.JavaMail.zimbra@zimbra.unideb.hu>
+Subject: Business Proposal
+Mime-Version: 1.0
+Content-Type: multipart/mixed;boundary=---------------------1a2d3caa6744d35406629a709789a36f
+Content-Transfer-Encoding: 7bit
+X-Originating-Ip: [197.210.71.73]
+X-Mailer: Zimbra 8.7.11_GA_3822 (zclient/8.7.11_GA_3822)
+Thread-Index: apUtKClWiy01dbrnWBf5h+AJjl5F0w==
+Thread-Topic: Business Proposal
+X-Pm-Spam: 0yeiAIic37iBOIJChpR3Y2bi4AiOiuHVZb8miiACL3cpJI6ZC2CIIMkD33MWODOkR
+ I3ZW5WIYNQ20xgDM2YiU0sIHzCJIYIS6gsHImIzlNwX3iW0YOAixiACL2cvNUicmxiAOMwiglJnI
+ Gcy9I6dCxCIILAjgWNkUFRJ99YTlgkwQUJkMSBiOWZlNZlaX2CBZaEWgyBSYWZhxBpeSTiBbcFGt
+ 1FGaycYBxcQkbiBbMkT3xIjLCM3443MSsyBMaNX0gQWZWag4Z6NG23Nbcd35wZnYmZyJh3Yn6GRd
+ adjluk2ZmeuVRxLmwnNLY1WozVXYmLl51cdF4iAbLAjgfh0UESMJVNX0MUlQUByFpFWbCbhBRyZG
+ zXNZIxGplR3cCZpBBlbipWFbbBCij9Gb2apxRcc3biBbbFmvolWbGa5FNoYXzTAaQdGtslWYmLvN
+ 1cbVwi0bLAjgGB1U1XBBMgU1G1BUOBizk5WZXZgIF0bWl2hYcByTgYEUmcjVJkb3gG4XM4CwQNFI
+ lRI9xPRUP05XTUkgGB1UiOIBxPRUvGRIZMXg09mbHI1BxpYmg2gcY4WgGB1UFIlJ9yY2uFxZIADu
+ GBiMkUFVFJTUSF9TRBVMPRVW0XOV9ERFJUdSVBCSsBXZSeU1BmbylmVcbFWp1BCb2cyVFtbmlSBZ
+ bRmzulGIGXg4lnZGcXRabBibvFmbWbolF5aGoXNYaATz0F2WWXtdlsYWvmNLb1VcxAibjLgAlTTU
+ O0lUR91IEFURVRTJ1pIEp3Ncbcmg68GVGIlhRlYWulxcIADuSBCM1QEZlOX0C1BXTBCSlNWZXalZ
+ B2ZCgWEaYBSyhxWZSepBBTbitGFcaFG1QByckQcxAxbigjYLUVkQUlFT1TX9RISVU1VTXR1PDN0X
+ EIv5RlIGy2NcaBX0u9WaGI2FlsYWsWJYZ5ScxAibjLgAJFRlBU1RSxUfS9kR0REVJFX1ZExUV8Eg
+ lJnRWZh1wgaWgW4aUVmwtkHbGVs8J1IGuCBdbQ3gvJnRVbuxB9IiIH0=
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: none
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 12
+X-Pm-Spam-Action: dunno
+
+-----------------------1a2d3caa6744d35406629a709789a36f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;charset=utf-8
+
+
+
+--
+Hello, How are you doing today? I am Naomi Hayashi. I am sorry for contact=
+ing you directly to your email.I have a very genuine and Lucrative opportu=
+nity that won&#39;t distract you from your daily schedule. I will like to =
+talk to you about something very important. Please acknowledge my email so=
+ I can provide you with details.
+I await your response.
+Best Regards,
+Naomi Hayashi
+
+-----------------------1a2d3caa6744d35406629a709789a36f--
