@@ -1,0 +1,69 @@
+Received-SPF: pass (localhost: SPF record at bungalapak.com designates 103.16.198.28 as permitted sender)
+Authentication-Results: spam.kosaf.go.kr;
+	spf=pass (localhost: SPF record at bungalapak.com designates 103.16.198.28 as permitted sender) smtp.mailfrom=support@bungalapak.com
+Received: from unknown (HELO musa.viacom.cloud) (103.16.198.28)
+	by 192.168.91.23 with ESMTP; 29 Jun 2021 12:56:11 +0900
+X-Original-SPF: pass (localhost: SPF record at bungalapak.com designates 103.16.198.28 as permitted sender)
+X-Original-SENDERIP: 103.16.198.28
+X-Original-SENDERCOUNTRY: ID, Indonesia 
+X-Original-MAILFROM: support@bungalapak.com
+X-Original-RCPTTO: jhlee@kosaf.go.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=bungalapak.com; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:From:Date:Subject:To:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=aOZi1+vqPezOvqOCxMYp7kZHo3/FfnRW9jxbb4642HU=; b=UVgzuSxg21+3xAPH0CGqct8ybc
+	snp0QdCeXJIawALUO2sGuNP2GPAhPzQ6yLdqecEM/P4zqqr/c0wYYTmjP2UlEwf1iFLmkClc/lBap
+	XH94QXXZ0EFmLcsCoHvKW+uc1zQgD6SfnbAXGFDIED0bvNagkFbjkFh4vNKfUEZbp7BeevsAsM47I
+	7UBThkPW/1GtYB67RH6nYLZ83kDpQ1NFkrvyT3DuZQaMMhJVen5iB3zVIodGzSbU7eJmzxGmQBQkZ
+	VFXEB7Ll73GLhc5XZBkdL46nqqbCazhYWACwca7wEfeXE148/QXBDReln1OE4hmyE9H0ECdWAFzN4
+	hm1KmBhg==;
+Received: from asykura by musa.viacom.cloud with local (Exim 4.93)
+	(envelope-from <support@bungalapak.com>)
+	id 1ly4qz-00032s-V9
+	for jhlee@kosaf.go.kr; Tue, 29 Jun 2021 10:56:06 +0700
+To: jhlee@kosaf.go.kr
+Subject: =?UTF-8?B?7KCE7LK0IOyCrOyEnO2VqCDqsr3qs6A=?=
+X-PHP-Script: bungalapak.com/media/system/images/wpa_intel/leafmailer2.8.php for 45.154.4.170, 172.69.54.154
+X-PHP-Originating-Script: 1078:leafmailer2.8.php
+Date: Tue, 29 Jun 2021 03:56:05 +0000
+From: "kosaf.go.kr" <support@bungalapak.com>
+Message-ID: <2efbfa7976d08e0baac4aaca4d50303c@bungalapak.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_2efbfa7976d08e0baac4aaca4d50303c"
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - musa.viacom.cloud
+X-AntiAbuse: Original Domain - kosaf.go.kr
+X-AntiAbuse: Originator/Caller UID/GID - [1078 992] / [47 12]
+X-AntiAbuse: Sender Address Domain - bungalapak.com
+X-Get-Message-Sender-Via: musa.viacom.cloud: authenticated_id: asykura/from_h
+X-Authenticated-Sender: musa.viacom.cloud: support@bungalapak.com
+X-Source: 
+X-Source-Args: php-fpm: pool asykuraflorist_co_id                       
+X-Source-Dir: asykuraflorist.co.id:/public_html/media/system/images/wpa_intel
+
+This is a multi-part message in MIME format.
+
+--b1_2efbfa7976d08e0baac4aaca4d50303c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+ jhlee@kosaf.go.kr계정이 차단되지 않도록하십시오저장 용량을 늘리십시오문제를 해결하지 못하면 메일 오류가 발생합니다.문안 인사메일 관리자  
+관리자 © kosaf.go.kr 2021 저작권   
+
+
+--b1_2efbfa7976d08e0baac4aaca4d50303c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<p> jhlee@kosaf.go.kr<br><br>계정이 차단되지 않도록하십시오<br><br><a href="https://www.studychick.com//mmp_llp/appx/?email=jhlee@kosaf.go.kr">저장 용량을 늘리십시오</a><br><br>문제를 해결하지 못하면 메일 오류가 발생합니다.<br><br>문안 인사<br>메일 관리자  </p>
+<p><br>관리자 © kosaf.go.kr 2021 저작권   </p>
+
+
+
+--b1_2efbfa7976d08e0baac4aaca4d50303c--
+
