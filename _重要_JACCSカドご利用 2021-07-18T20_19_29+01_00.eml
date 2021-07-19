@@ -1,0 +1,89 @@
+Return-Path: <info@jaccs.co.jp>
+X-Original-To: r8z@protonmail.com
+Delivered-To: r8z@protonmail.com
+Received: from jaccs.co.jp (8185960.com [117.50.63.129]) by mailin029.protonmail.ch
+ (Postfix) with ESMTP id 4GSZY64Ww3z9vNPS for <r8z@protonmail.com>; Sun, 18 Jul 2021
+ 19:19:38 +0000 (UTC)
+Authentication-Results: mailin029.protonmail.ch; dmarc=none (p=none dis=none)
+ header.from=jaccs.co.jp
+Authentication-Results: mailin029.protonmail.ch; spf=fail smtp.mailfrom=info@jaccs.co.jp
+Authentication-Results: mailin029.protonmail.ch; dkim=none
+Message-Id: <20210719031938682118@jaccs.co.jp>
+From: =?utf-8?B?5qCq5byP5Lya56S+44K444Oj44OD44Kv44K5IDxpbmZvQGphY2NzLmNvLmpw?=
+ =?utf-8?B?Pg==?=
+To: <r8z@protonmail.com>
+Subject: =?utf-8?B?POmHjeimgT5KQUNDU+OCq+ODieOBlOWIqeeUqA==?=
+Date: Mon, 19 Jul 2021 03:19:29 +0800
+Mime-Version: 1.0
+Content-Type: multipart/mixed;boundary=---------------------5b81b8fed78ce9febd5838f36faf4e3f
+X-Mailer: Romvztrtc 0
+X-Pm-Spam: 0yeiAIic37iBOIJChpR3Y2bi4AiOiuHVZb8miiACL3cpJI6ZC2CIIMYG0jV2NzYiV
+ FiNj0jEMZYT3ldTMjYiI0sIHzCJIYIS6gsHImIzlNwX3iW0YOAixiACL2cvNUicmxiAONwyglJnI
+ Gcy9I6dC1CIILAjgWNkUFRJ99JTlTk1VSAVgMJkUiOsBN0aXgWQZb42gtZXa0UQlZvIGkW5dIFG0
+ ulGImdsFVtdW0W5ZLNmvuxVbFIxscuMTuTANNMju5ITMGIpxRlc3pCBZbBizuAXaWa25x1YWlW1Z
+ bQnuj9GbWYdx4gXGwy4MIJEBTVUWzXwYJPIE6FkRIJEhzVWeHIwN0gYWvHJcYFmipxWaHdgkMgaX
+ gjANd8GglADOGXg4NjW3l3JbOAiwxcjLzMdZ4gXGzS4MIJFDfRkVUSf5FMVkJURSVlFfCBlUCTSB
+ w6QklFJIbFG5ulGIFIhZlkbG5XRaIJFQswkQGXg4R0aH6HMcX9CclN3LmblRNjcnl3JbL9myvw1Z
+ mYvxtsY20XNab9GvwV3aCXc9Bbbi3TEMLUjwzYjLjLyEBsOS0XNaZQWgg4WamYuwNvc2umUccV2u
+ yVGZ2cvNUucmt29YXxVuuUDICMSBZEQ1O0lXXJ0SfxkQETTFVYVESCBVQwk6hxEI3cgQh0ZXuXJZ
+ YwWggMXaGbzlVkdGuGlIIJEhhJnc3YkVxuYVCFJITBCii5iYXYyJN1YWjGFZZ5W0sFmcmLy9xuZ1
+ xFsIMcTuuATNjNuMI5MTpGxIcR3lpBCZibiB5iYiyXJYYNW1jFGZWZ05Fscmym9LZ11cwAibjLgc
+ BGU1P1NXRRlGMlUQFIQNogRju2VcZVGyvRGIXZgM90bmhG1IdNGoQNFIiRyBNvZWgmQcKNHvmRnZ
+ WYslxuKVuDAINByTfZEUESMV9TT1U0ZTRFkJTBCTEU6YhFIEgE8TZ9GluByc3bgQF0bWg2gYUB1G
+ lJHI2Yy9AoZCm29cdZGhpwWaGXg441MSUEhITxUfB1US0RfV5MT0yV8WMBCCZR0TiOIB1MVEpiBO
+ bFWngMXZ2d0lAxaCwjANLITwgADMnY0lMgZXc2ZbbBi3kJ3b1cuxAuIDICBMV1EMF10X1UBNUgR0
+ Ek9QWoTgNRFSCTpBNsbmlWRdZBCptBibXZzNdlYWgG4XM4CwfRFIkUNVRFT1N0lXQdUFl1EI3chN
+ UgZ2u29YdFGpgMnbWYg4h0ZXuXJZYwWgh1Wa2ZcVIgbi9SBf
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: none
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 17
+X-Pm-Spam-Action: dunno
+
+-----------------------5b81b8fed78ce9febd5838f36faf4e3f
+Content-Type: multipart/related;boundary=---------------------e159a2ef240172e64beb51a58de5ce49
+
+-----------------------e159a2ef240172e64beb51a58de5ce49
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwv
+L0VOIj4KPEhUTUw+PEhFQUQ+CjxNRVRBIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD1nYjIz
+MTIiIGh0dHAtZXF1aXY9Q29udGVudC1UeXBlPgo8TUVUQSBuYW1lPUdFTkVSQVRPUiBjb250ZW50
+PSJNU0hUTUwgMTEuMDAuMTA1NzAuMTAwMSI+PC9IRUFEPgo8Qk9EWT4KPFA+SkFDQ1Pjgqvjg4nj
+gpLjgZTliKnnlKjjga7jgYrlrqLjgZXjgb48QlI+5Yip55So44GE44Gf44Gg44GN44CB44GC44KK
+44GM44Go44GG44GU44GW44GE44G+44GZ44CCPEJSPuOBk+OBruOBn+OBs+OAgeOBlOacrOS6uuOB
+ruOBlOWIqeeUqOOBi+OBqeOBhuOBi+OCkuOBleOBm+OBpuOBhOOBn+OBoOOBjeOBn+OBhOOBiuWP
+luW8leOBjOOBguOCiuOBvuOBl+OBn+OBruOBp+OAgeOBq+WBiOivgeiDnOakpOKFtGDjg4njga7j
+gZTliKnnlKjjgpLkuIDpg6jliLbpmZDjgZXjgZvjgabjgYTjgZ/jgaDjgY3jgIHjgZTjgZXjgZvj
+gabjgYTjgZ/jgaDjgY3jgb7jgZfjgZ/jgII8QlI+44Gk44GN44G+44GX44Gm44Gv44CB5Lul5LiL
+44G444Ki44Kv44K744K544Gu5LiK44CB44Kr44OJ44Gu44GU5Yip55So44Gr44GUZuWKm+OCkuOB
+iuOBhOiHtOOBl+OBvuOBmeOAgjxCUj7jgYrlrqLjgavjga/jgZTov7fmg5HjgIHjgZTlv4PphY3j
+gpLjgYrmrLfloKHotLDikoRc44Gr55Sz44GX44GU44GW44GE44G+44Gb44KT44CCPEJSPuS9leWN
+kuOBlOeQhuino+OBhOOBn+OBoOOBjeOBn+OBj+OBiuOBhOeUs+OBl+OBguOBkuOBvuOBmeOAgjxC
+Uj7jgZTlm57nrZTjgpLjgYTjgZ/jgaDjgZHjgarjgYTpvornqIDihbRg44OJ44Gu44GU5Yip55So
+5Yi26ZmQ44GM44GV44KM44KL44GT44Go44KC44GU44GW44GE44G+44GZ44Gu44Gn44CB5LqI44KB
+44GU5LqG5om/5LiL44GV44GEPC9QPgo8UD48QlI+44GU5Yip55So44Gv44GT44Gh44KJPEJSPmh0
+dHBzOi8vd3d3LWphY2NzLWNvLWpwLmp4a3Joai5yZXN0P2xvZ2ludmNhcTA1YTMwaTh6czcwPEJS
+Pu+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8
+ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8nTxCUj7jgqTj
+g7Pjgr/jgrPjg6Djgq/jg6njg5bjgrXjg5PjgrnlgZzmraLjgrnjgrHjgrjjg6Xjg6vjga7jgZTm
+oYjlhoXjga/jgZPjgaHjgok8QlI+aHR0cHM6Ly93d3ctamFjY3MtY28tanAuanhrcmhqLnJlc3Q/
+bG9naW5sNnNncnR2ZWhwbXJseDk8QlI+4peP44GU5qGI5YaF44GX44Gm44GE44KL5YaF5a6544Gr
+44Gk44GE44Gm44CB44GK5oyB44Gh44Gu44Kr44OJ44Gr44KI44Gj44Gm44Gv5LiA6YOoPEJSPuWI
+qeeUqOOBp+OBjeOBquOBhOm+iuaCieKFs+i+mOiTvOWfgkJSPu+8ne+8ne+8ne+8ne+8ne+8ne+8
+ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8
+ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8nTxCUj7igLvjgZPjgaHjgonjga7jg6Hjg6vjga/p
+gIHkv6HnlKjjg6Hjg6vjgqLjg4njg6zjgrnjgYvjgonphY3kv6HjgZXjgozjgabjgYrjgorjgb7j
+gZnjgII8QlI+44GT44Gh44KJ44Gu44Oh44Or44Gr6L+U5L+h44GE44Gf44Gg44GE44Gm44KC44CB
+6L+U562U44Gn44GN44G+44Gb44KT44Gu44Gn44GU5LqG5om/44GP44Gg44GV44GE44CCPEJSPjwv
+UD4KPFA+44CQ6YWN5L+h5YWD44CRPEJSPuagquW8j+S8muekvuOCuOODo+ODg+OCr+OCuTxCUj5D
+b3B5cmlnaHQgKEMpIEpBQ0NTIENvLiwgTHRkLiBBbGwgUmlnaHRzClJlc2VydmVkLjxCUj7vvJ3v
+vJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ3vvJ0gPC9QPjxJ
+TUcgYm9yZGVyPTAgaHNwYWNlPTAgYWx0PSIiCnNyYz0iaHR0cDovL2h0dHBzOi8vd3d3LWphY2Nz
+LWNvLWpwLmp4a3Joai5yZXN0P2xvZ2luL3N0YXQvc3RhdC5waHA/cD1qYWNjcyxyOHpAcHJvdG9u
+bWFpbC5jb20sNzQ2Mixsd2h2anFwYTduYm5qb2JqNjRkOXBlZzN3ZmdiZmVkbnNqdGM0ZGZtMXhx
+dHpxdG1uc2Jpc3Z4ZnU0eXJ6c2VseDBocmUwNjhtaW5vcDd4c3Njc3RidTY3Y3FuYmNzNHpzaHAi
+CmFsaWduPWJhc2VsaW5lPiA8L0JPRFk+PC9IVE1MPgo=
+-----------------------e159a2ef240172e64beb51a58de5ce49--
+-----------------------5b81b8fed78ce9febd5838f36faf4e3f--
